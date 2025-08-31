@@ -1,0 +1,488 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: 40px;
+    width: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 1.2rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#facebook {
+    background-color: black;
+    color: white;
+}
+#container1{
+    height: 40px;
+    width: auto;
+    padding-top: 5px;
+    display: flex;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+}
+.menu a:hover{
+    border-bottom: 2px solid black;
+
+}
+.main-container{
+    background-image: url("WhatsApp Image 2025-02-09 .jpg");
+    height: 80vh;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    animation-name:sample;
+}
+
+#sum{
+    opacity: 0.5;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn button{
+    padding: 1rem 1.5rem;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.btn button:hover{
+scale: 1.2;
+}
+.btn1{
+    background-color: black;
+    color: white;
+}
+.btn3{
+    background-color: black;
+    color: white;
+    padding: 1rem 1.5rem;
+    height: auto;
+    width: 200px;
+    margin-top: 10px;
+}
+.btn3:hover{
+    scale: 1.2;
+}
+
+p{
+    align-items: center;
+    text-decoration: none;
+    padding-top: 10px;
+    margin: 0 0 20px;
+    
+}
+#container2{
+    height: auto;
+    width: auto;
+    color:black;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-right: 50px;
+}
+.service{
+    padding: 4rem;
+}
+.container3{
+    background-image: url("generic-2.jpg");
+    background-image: url("generic-3.jpg");
+    background-image: url("generic-1.jpg");
+    height: 80vh;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position: right;
+}
+#ab{
+    height: 00px;
+    width: auto;
+    display: flex;
+    flex-direction: column; 
+}
+h3{
+    text-decoration: solid;
+    
+}
+.box{
+    height: 400px;
+    width:400px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    margin: 10px; 
+}
+.box ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container-product{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.product-1{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    
+}
+.off{
+    position: absolute;
+    top:15px;
+    left:15px;
+    border-radius: 2px;
+    background-color: rgb(228, 51, 51);
+    color: white;
+    padding: 5px 9px;
+}
+.bag{
+    position: absolute;
+    top:15px;
+    right:15px;
+    color: black;
+}
+    
+
+.view{
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color:white;
+    border:none;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0px 0px;
+}
+.view:hover{
+    background: #333;
+    scale: 1.2;
+}
+.info{
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+.product-img{
+    /* height: 400px; */
+    width: 100%;
+    border-radius: 5px;
+
+}
+.catagory{
+    font-size: 12px;
+    color: grey;
+}
+.Product{
+    font-size: 16px;
+    font-weight: bold;
+}
+.price{
+    font-size: 14px;
+}
+.old{
+    text-decoration: line-through;
+    color:gray
+}
+.new{
+    font-size: 18px;
+    font-weight: bold;
+    color:black
+}
+
+.box:hover{
+    scale:1.2 ;
+}
+.box img{
+    opacity: 0.1;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.S2{
+    display: flex;
+    align-items: center;
+ }
+ .btn3{
+    background-color: black;
+    color: white;
+    padding: 1rem 1.5rem;
+    height: auto;
+    width: 200px;
+    margin-top: 10px;
+}
+  #Clients{
+    height: 400px;
+    background-color: #222529;
+    justify-content: center;
+    font: 14px Poppins,Arial,sans-serif;
+    padding: 80px ;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin-top: 40px;
+ }
+ #Clients h3{
+    font-family: Neftali Pro Bold Italic;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    margin:0px 0px 16px;
+    font-size: 35px;
+    padding-top:10px;
+ }
+ #Clients em{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0px 8px;
+ }
+ h3{
+text-decoration: none;
+font-style: italic;
+font-size: 40px;
+ } 
+  #Clients{
+ background-color: black;
+ color: white;
+ font-family: sans-serif;
+}
+.container {
+ text-align: center;
+}
+#logo{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#logo img{
+    height: 30px;
+
+}
+.container-treat-in{
+    display: flex;
+    margin:  20px 0px;
+}
+.blog-inner{
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#blog{
+    background-color:#ccc;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.discount{
+    position: relative;
+}
+.dolor{
+    position: absolute;
+    top:15px;
+    left:15px;
+    border-radius: 2px;
+    background-color:black;
+    color: white;
+    padding: 5px 9px;
+}
+
+#gallery{
+    display: flex;
+    align-items: center;
+}
+.boxa{
+    width: 18%;
+}
+.boxc{
+    height:auto;
+    width:70%;
+    background-color: black;
+    color: white;
+    padding: 80px ;
+    border-radius: 8px;
+    font-size: 18px
+}
+.follow{
+    font-weight: bold;
+    opacity:0;
+    transform: scale(0.5);
+    animation: follow 0.8s ease-out forwards;
+}
+@keyframes follow{
+    0%{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    80%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity:1;
+        transform: scale(1);
+    }
+}
+.lisa{
+    opacity:0.5;
+}
+
+ #subscribe {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #f8f8f8;
+} 
+
+.Newsletter-container {
+    text-align: left;
+    width: 400px;
+    
+}
+
+.Newsletter-label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.Newsletter-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #f0f0f0;
+    width: 100%;
+}
+
+.Newsletter-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+}
+
+.Newsletter-box button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.Newsletter-box button span {
+    display: inline-block;
+}
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footer-section div {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.footer-section h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social-media-icons a {
+    color: #4a4a4a;
+    font-size: 1.5rem;
+}
+.social-media-icons a:hover {
+    color: #333;
+}
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+.contact-section div {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    size: 0.2px;
+}
+
+
+
+
+ 
+
+
